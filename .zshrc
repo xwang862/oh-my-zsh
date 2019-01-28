@@ -89,6 +89,9 @@ source $ZSH/oh-my-zsh.sh
 # MacPorts and Anaconda3 added new PATHs in ~/.profile
 source $HOME/.profile
 
+# Add application-specific settings in ~/.app-specific-settings and source them
+source $HOME/.app-specific-settings
+
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
